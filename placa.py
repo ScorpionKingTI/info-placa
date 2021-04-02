@@ -53,6 +53,7 @@ def placa():
  if 'plac' != 'placa':
   print('\033[33;1mplaca nao encontrada\033[0;0m\n')
   gt()
+os.system('clear')
 print("\033[34;1m                    coded by:")
 time.sleep(0.1)      
 print("")
