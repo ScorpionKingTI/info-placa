@@ -11,6 +11,7 @@ def gt():
     print('\n\033[33;1mseleção invalida digite 1 ou 2\n')
     gt()
 def placa():
+ os.system('clear')
  print('\033[32;1m')
  print('\033[32;1m     ██╗███╗  ██╗███████╗ █████╗ ')
  time.sleep(0.1)      
