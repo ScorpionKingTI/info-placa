@@ -41,7 +41,7 @@ def placa():
  time.sleep(0.1)      
  print('\033[32;1m╚═╝     ╚══════╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝')
  print('')
- print('''
+ print('''\033[34;1m
  ____________________________________________
  |
  |---------- 1. consultar uma placa
@@ -49,7 +49,7 @@ def placa():
  |---------- 3. sair 
  |___________________________________________
  ''')
- s=input('Digite o que deseja fazer\n>')
+ s=input('\nDigite o que deseja fazer\n>')
  if s == '1':
   print('\n\n\033[34;1mdigite a placa a ser consultada\033[0;0m\n')
   plac=input('\033[31;1m>')
@@ -63,10 +63,10 @@ def placa():
    print('\033[33;1mplaca nao encontrada\033[0;0m\n')
    gt()
  if s == '2':
-   print('essa é uma ferramenta bem simples na qual foi desenvolvida com o intuito de retornar determinadas informações a partir de uma placa veicular....a placa deve ser digitada com letras minusculas sem traços')
+   print('\nEssa é uma ferramenta bem simples na qual foi desenvolvida com o intuito de retornar determinadas informações a partir de uma placa veicular....a placa deve ser digitada com letras minusculas sem traços')
    gt()
  if s == '3':
-   print('\033[32;1mobrigado por ultilizar os serviços do scorpion king')
+   print('\033[32;1m\nObrigado por ultilizar os serviços do scorpion king\n')
    exit()
 os.system('clear')
 print("\033[34;1m                    coded by:")
