@@ -63,7 +63,7 @@ def placa():
    print('\033[33;1mplaca nao encontrada\033[0;0m\n')
    gt()
  if s == '2':
-   print('\nEssa é uma ferramenta bem simples na qual foi desenvolvida com o intuito de retornar determinadas informações a partir de uma placa veicular....a placa deve ser digitada com letras minusculas sem traços')
+   print('\n\033[32;1mEssa é uma ferramenta bem simples na qual foi desenvolvida com o intuito de retornar determinadas informações a partir de uma placa veicular....a placa deve ser digitada com letras minusculas sem traços')
    gt()
  if s == '3':
    print('\033[32;1m\nObrigado por ultilizar os serviços do scorpion king\n')
