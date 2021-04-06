@@ -68,6 +68,10 @@ def placa():
  if s == '3':
    print('\033[32;1m\nObrigado por ultilizar os serviços do scorpion king\n')
    exit()
+ if dc != '1' and '2' and '3':
+  print('\033[33;1mSeleção invalida\033[0;0m')
+  time.sleep(3)
+  placa()
 os.system('clear')
 print("\033[34;1m                    coded by:")
 time.sleep(0.1)      
