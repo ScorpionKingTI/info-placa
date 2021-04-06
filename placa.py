@@ -49,7 +49,7 @@ def placa():
  |---------- 3. sair 
  |___________________________________________
  ''')
- s=input('\nDigite o que deseja fazer\n             >')
+ s=input('\nDigite o que deseja fazer\n          >')
  if s == '1':
   print('\n\n\033[34;1mdigite a placa a ser consultada\033[0;0m\n')
   plac=input('\033[31;1m>')
